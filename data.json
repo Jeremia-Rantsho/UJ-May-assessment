@@ -1,38 +1,38 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Jeremia Diketso Rantsho",
+        "photo" : "./Images/profile-picture.jpg",
+        "phone" : "+27659873597",
+        "email" : "someone@outlook.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "Bahcesehir Universitesi",
+        "photo" : "../Images/University-picture.jpg",
+        "description" : "The university at the heart of the city of Istanbul. A place where all people of different races meet and share culture and languages."
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "Turkce",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "What kind of drink do you want?",
+            "foreignLanguage" : "Ne yiyecek istersiniz?"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Today's weather is pretty good",
+            "foreignLanguage" : "Bugun hava daha iyi"
         }]
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
-            "description" : ""
+            "name" : "4IR Bootcamp Technologies",
+            "description" : "There are new technologies that keeps blooming up every day and the people need to keep up in order to keep up and survive."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "FULLSTACK WEB DEVELOPMENT FOR 4IR",
+            "description" : "Build webpages and apps from scratch with full understanding of backend and frontend."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "AGILE RAPID SKILLS ACQUISITION",
+            "description" : "Afterall, as a software developer you end up working with people. And there are scrums that developers works in, that means agile skills is important for developer to have ability to work with others and also share ideas."
         }
     ]
 }
