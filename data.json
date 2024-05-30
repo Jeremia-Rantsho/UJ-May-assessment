@@ -10,33 +10,23 @@
         "photo" : "./Images/University-picture.jpg",
         "description" : "The university at the heart of the city of Istanbul. A place where all people of different races meet and share culture and languages."
     },
-    "foreignLanguage" : {
-        "language" : "TURKCE AND ENGLISH PHRASES",
-        "phrases" : [{
-            "englishPhrase" : "ENGLISH",
-            "foreignLanguage" : "TURKCE"
-        },
-        {
-            "englishPhrase" : "What kind of drink do you want?",
-            "foreignLanguage" : "Ne yiyecek istersiniz?"
-        },
-        {
-            "englishPhrase" : "Today's weather is pretty good",
-            "foreignLanguage" : "Bugun hava daha iyi"
-        }]
+    "Skills":{
+        "hard-skills": ["Python programming language", "Data Analysis", "Structured-Query Language (SQL)"]
     },
-    "favouriteSubjects" : [
+    "Strength":{
+        "strengths": ["Technical knowledge", "Problem-solving skills", "Analytical mindset", "Team player"]
+    },
+    "foreignLanguage" : {
+        "language" : "LANGUAGES",
+        "phrases" : [" S. Sotho", "ENGLISH", "TURKCE"]
+
+    },
+    "profile" : [
+
         {
-            "name" : "4IR Bootcamp Technologies",
-            "description" : "There are new technologies that keeps blooming up every day and the people need to keep up in order to keep up and survive."
-        },
-        {
-            "name" : "FULLSTACK WEB DEVELOPMENT FOR 4IR",
-            "description" : "Build webpages and apps from scratch with full understanding of backend and frontend."
-        },
-        {
-            "name" : "AGILE RAPID SKILLS ACQUISITION",
-            "description" : "Afterall, as a software developer you end up working with people. And there are scrums that developers works in, that means agile skills is important for developer to have ability to work with others and also share ideas."
+            "name" : "PROFILE SUMMARY",
+            "description" : "Highly motivated Computer Engineer graduate seeking an opportunity to utilize my technical skills and knowledge in a professional setting. Eager to contribute to innovative projects and collaborate with a team of talented individuals to drive success and growth within a dynamic organization. Passionate about continuous learning and staying ahead in the rapidly evolving technology industry."
         }
+        
     ]
 }
