@@ -1,38 +1,32 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Jeremia Diketso Rantsho",
+        "photo" : "./Images/profile-picture.jpg",
+        "phone" : "+27659873597",
+        "email" : "someone@outlook.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "Bahcesehir Universitesi",
+        "photo" : "./Images/University-picture.jpg",
+        "description" : "The university at the heart of the city of Istanbul. A place where all people of different races meet and share culture and languages."
+    },
+    "Skills":{
+        "hard-skills": ["Python programming language", "Data Analysis", "Structured-Query Language (SQL)"]
+    },
+    "Strength":{
+        "strengths": ["Technical knowledge", "Problem-solving skills", "Analytical mindset", "Team player"]
     },
     "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+        "language" : "LANGUAGES",
+        "phrases" : [" S. Sotho", "ENGLISH", "TURKCE"]
+
     },
-    "favouriteSubjects" : [
+    "profile" : [
+
         {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
+            "name" : "PROFILE SUMMARY",
+            "description" : "Highly motivated Computer Engineer graduate seeking an opportunity to utilize my technical skills and knowledge in a professional setting. Eager to contribute to innovative projects and collaborate with a team of talented individuals to drive success and growth within a dynamic organization. Passionate about continuous learning and staying ahead in the rapidly evolving technology industry."
         }
+        
     ]
 }

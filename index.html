@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>CV Project</title>
 </head>
-<body>
-    <h1>Hello World</h1>
+<body class="bodyFlex">
+        <div class="containerDivider">
+            <div class="left-section">
+                <div>
+                    <img class="profilePic" src={{user.photo}}>
+                </div>
+                <div class="personalDetails">
+                    <h1>Personal Details</h1>
+                    <h3>{{user.fullName}}</h3>
+                    <p>Email: {{user.email}}</p>
+                    <p>Mobile: {{user.phone}}</p>
+                </div>
+                <div class="Education">
+                    <h1>Education</h1>
+                    <h2>{{education.institutionName}}</h2>
+                    <div>
+                        <img class="universityPicture" src={{education.photo}}>
+                    </div>
+                    
+                    <p>
+                        {{education.description}}
+                    </p>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="skillsContainer">
+                    <h2>SKILLS</h2>
+                    <ul>
+                        {{#each Skills.hard-skills}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                        
+
+                    </ul>
+                </div>
+                <div class="foreignLanguage">
+                    <h2>{{foreignLanguage.language}}</h2>
+
+                    <ul>
+                        {{#each foreignLanguage.phrases}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                        
+
+                    </ul>
+
+                    
+                </div>
+               
+                <div class="strengthsContainer">
+                    <h2>STRENGTHS</h2>
+                    <ul>
+                        {{#each Strength.strengths}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                        
+
+                    </ul>
+                </div>
+
+                <div class="myProfile">
+
+                    {{#each profile}}
+                    <h3>{{this.name}}</h3>
+                    <p>{{this.description}}</p>
+                    {{/each}}
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
