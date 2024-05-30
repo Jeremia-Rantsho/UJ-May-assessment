@@ -7,12 +7,16 @@
     },
     "education" : {
         "institutionName" : "Bahcesehir Universitesi",
-        "photo" : "../Images/University-picture.jpg",
+        "photo" : "./Images/University-picture.jpg",
         "description" : "The university at the heart of the city of Istanbul. A place where all people of different races meet and share culture and languages."
     },
     "foreignLanguage" : {
-        "language" : "Turkce",
+        "language" : "TURKCE AND ENGLISH PHRASES",
         "phrases" : [{
+            "englishPhrase" : "ENGLISH",
+            "foreignLanguage" : "TURKCE"
+        },
+        {
             "englishPhrase" : "What kind of drink do you want?",
             "foreignLanguage" : "Ne yiyecek istersiniz?"
         },
