@@ -23,6 +23,7 @@ h3{
     width: 200px;
 }
 
+
 .left-section {
 	position: initial;
 	background-color: rgb(126, 219, 231);
@@ -38,8 +39,14 @@ h3{
 }
 .foreignLanguage, 
 .personalDetails,
-.Education{
+.Education,
+.skillsContainer,
+.myProfile{
 	margin-bottom: 30px;
+}
+
+.strengthsContainer{
+    margin-bottom: 30px;
 }
 
 /* Large screen */
