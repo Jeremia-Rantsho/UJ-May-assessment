@@ -1,13 +1,13 @@
 {
     "user" : {
         "fullName" : "Jeremia Diketso Rantsho",
-        "photo" : "./Images/profile-picture.jpg",
+        "photo" : "./public/profile-picture.jpg",
         "phone" : "+27659873597",
         "email" : "someone@outlook.com"
     },
     "education" : {
         "institutionName" : "Bahcesehir Universitesi",
-        "photo" : "./Images/University-picture.jpg",
+        "photo" : "./public/University-picture.jpg",
         "description" : "The university at the heart of the city of Istanbul. A place where all people of different races meet and share culture and languages."
     },
     "Skills":{
